@@ -1,0 +1,57 @@
+body {
+   
+    background-image: url(./imageBP/boite-transparente-dragees-discount-1.jpg);
+    
+
+
+}
+header{
+    font-size: 20px;
+
+
+
+}
+
+.nav-items {
+
+    display: flex;
+    padding-left: 60%;
+    padding-bottom: 20px;
+    justify-content: space-around;
+    margin-right: 50px;
+    
+   
+}
+
+p {
+    margin-left: 65px;
+    font-family: 'Playfair' sans-serif;
+    font-size: 20px;
+    color: black;
+    display: flex;
+
+}
+
+
+
+.text {
+
+    text-align: center;
+
+    font-size: 15px;
+
+}
+
+.hr{
+    background-color: rgb(80,133,214);
+    height: 3px;
+    border: none ;
+}
+
+ol {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 92, 184);
+    font-weight: bolder;
+}
+

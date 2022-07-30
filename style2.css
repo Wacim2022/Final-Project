@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Ibarra+Real+Nova&family=Montserrat&family=Playfair+Display:ital,wght@0,600;1,400;1,500&family=Roboto+Mono:wght@500&family=Work+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Ibarra+Real+Nova&family=Playfair+Display:ital,wght@0,600;1,400;1,500&family=Roboto+Mono:wght@500&family=Work+Sans:wght@200&display=swap');
+
+body {
+   
+    background-image: url(./imageBP/boite-transparente-dragees-discount-1.jpg);
+    
+
+
+}
+header{
+    font-size: 20px;
+}
+
+header p {
+    font-weight: 700;
+}
+
+.nav-items {
+
+    display: flex;
+    padding-left: 60%;
+    padding-bottom: 20px;
+    justify-content: space-around;
+    margin-right: 50px;
+    
+   
+}
+.nav-items::after{
+    content: "";
+    transform: scale(0);
+    transition: transform 0.3s ease-in-out;
+
+}
+.nav-items:hover::after{
+    transform: scale(1) ;
+}
+p {
+    margin-left: 65px;
+    font-family: 'Playfair' sans-serif;
+    font-size: 20px;
+    color: black;
+    display: flex;
+
+}
+.images{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.hr{
+    background-color: rgb(80,133,214);
+    height: 3px;
+    border: none ;
+}
+
+
+.text {
+
+    text-align: center;
+
+    font-size: 15px;
+
+}
+
